@@ -1,0 +1,18 @@
+{
+  "name": "talenttreaty",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
