@@ -23,12 +23,14 @@ const Hero2 = () => {
           </h1>            
           <p className="text-[14px] mb-6 text-[#1C0E0D] leading-6">
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page so quickly with Albino.          </p>
-          <button className="flex items-center bg-[#473BF0] text-white px-4 py-4 w-[fit-content] rounded-[8px] transition duration-300 ease-in-out hover:bg-opacity-80">
-            <span className="text-[14px]">Get started for free</span>
-            <svg className="ml-2 w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8m0 0l-4-4m4 4l-4 4" />
-            </svg>
-          </button>
+          <a href="/start">
+            <button className="flex items-center bg-[#473BF0] text-white px-4 py-4 w-[fit-content] rounded-[8px] transition duration-300 ease-in-out hover:bg-opacity-80">
+              <span className="text-[14px]">Get started for free</span>
+              <svg className="ml-2 w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8m0 0l-4-4m4 4l-4 4" />
+              </svg>
+            </button>
+          </a>
         </div>
       </section>
     </div>

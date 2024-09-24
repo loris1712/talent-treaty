@@ -32,12 +32,14 @@ const Hero = () => {
               <span className='text-[#473BF0]'>Instantly</span>
             </h1>            
             <p className="text-[14px] mb-6 text-[#1C0E0D] leading-6">Created by lawyers to help you save money on contracts. We specialize in the music industry offering cost effective contracts.</p>
-            <button className="flex items-center bg-[#473BF0] text-white px-4 py-4 rounded-[8px] transition duration-300 ease-in-out hover:bg-opacity-80">
-              <span className="text-[14px]">Get started for free</span>
-              <svg className="ml-2 w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8m0 0l-4-4m4 4l-4 4" />
-              </svg>
-            </button>
+            <a href="/start">
+              <button className="flex items-center bg-[#473BF0] text-white px-4 py-4 rounded-[8px] transition duration-300 ease-in-out hover:bg-opacity-80">
+                <span className="text-[14px]">Get started for free</span>
+                <svg className="ml-2 w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h8m0 0l-4-4m4 4l-4 4" />
+                </svg>
+              </button>
+            </a>
           </div>
         </div>
 

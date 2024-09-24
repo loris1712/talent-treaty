@@ -51,3 +51,29 @@ a {
     color-scheme: dark;
   }
 }
+
+.agreementForm input, select, textarea{
+  background-color: #f5f7fa;
+           border: 0px;
+           border-radius: 19px;
+           color: #8c8c8c;
+           padding: 10px;
+           width: 100%;
+           margin: 10px 0px 50px 0px;
+}
+
+.agreementForm .aggreementFormButton{
+    background-color: #473bf0;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.agreementForm .aggreementFormButtonOutline{
+  border:1px solid #473BF0;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 20px;
+}

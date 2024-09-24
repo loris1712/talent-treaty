@@ -12,7 +12,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      setScrolled(window.scrollY > 20);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -36,7 +36,7 @@ const Navbar = () => {
             <svg
               className="w-6 h-6"
               fill="#000"
-              stroke="currentColor"
+              stroke="#000"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -44,7 +44,6 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-
 
         <div className={`md:flex md:space-x-6 ${isOpen ? "block" : "hidden"} items-center absolute md:relative top-16 right-0 bg-white md:bg-transparent md:top-0 md:right-0 w-full md:w-auto`}>
           <div className="flex flex-col md:flex-row md:space-x-6">
@@ -67,7 +66,7 @@ const Navbar = () => {
           
           <div className="flex flex-col md:flex-row md:space-x-4 mt-4 md:mt-0">
             <Link href="/login">
-              <button className="bg-white text-[#473BF0] py-2 px-4 hover:bg-[#f0f0f0] transition duration-300 ease-in-out text-[14px]">
+              <button className="hover:bg-transparent text-[#473BF0] py-2 px-4 hover:bg-[#f0f0f0] transition duration-300 ease-in-out text-[14px]">
                 Login
               </button>
             </Link>
