@@ -35,7 +35,7 @@ const Footer = () => {
           
           {/* Column 3 */}
           <div>
-            <ul className="w-[fit-content] ml-auto">
+            <ul className="w-[fit-content] md:ml-auto">
               <li className="w-[fit-content] text-[12px]"><a href="#">Whatsapp</a></li>
               <li className="w-[fit-content] text-[12px]"><a href="#">Telegram</a></li>
             </ul>
@@ -45,7 +45,7 @@ const Footer = () => {
 
       {/* Bottom section of the footer */}
       <div className="bg-[#080039] text-white py-4">
-        <div className="container mx-auto flex justify-between items-center">
+        <div className="container mx-auto md:flex md:pl-0 pl-16 justify-between items-center">
           <p className="text-[12px] text-[#cccccc]">&copy; 2024 — Copyright</p>
           <ul className="flex space-x-4">
             <li><a href="#" className="text-[12px] text-[#cccccc]">Privacy</a></li>
