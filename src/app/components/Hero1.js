@@ -21,12 +21,12 @@ const Hero = () => {
       <section className="flex flex-col md:flex-row bg-white mt-0 items-center" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
         {/* Left Side - Text and Button */}
         <div className="flex justify-center md:w-1/2 px-4 md:px-0">
-          <div className="md:w-1/2 flex justify-start">
+          {/*<div className="md:w-1/2 flex justify-start">
             <img src="/images/homeElement.svg" alt="Element" className="object-cover h-[50%] w-auto" style={{position: 'absolute',  top: '0'}} />
             <img src="/images/dots.svg" alt="Dots" className="object-cover h-[20%] w-auto" style={{position: 'absolute', top: '60%', width: '13%', height: '14%'}}/>
-          </div>
-          <div>
-          <h1 className="text-4xl font-extrabold mb-4 text-[#332C5C]">
+          </div>*/}
+          <div className='md:pl-12 md:ml-12 md:mt-0 mt-12'>
+            <h1 className="text-4xl font-extrabold mb-4 text-[#332C5C]">
               Create
               <span className="block">Music Contracts</span>
               <span className='text-[#473BF0]'>Instantly</span>

@@ -45,7 +45,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className={`md:flex md:space-x-6 ${isOpen ? "block" : "hidden"} items-center absolute md:relative top-16 right-0 bg-white md:bg-transparent md:top-0 md:right-0 w-full md:w-auto`}>
+        <div className={`md:flex md:space-x-6 ${isOpen ? "block" : "hidden"} items-center absolute md:p-0 p-8 md:relative top-16 right-0 bg-white md:bg-transparent md:top-0 md:right-0 w-full md:w-auto`}>
           <div className="flex flex-col md:flex-row md:space-x-6">
             <Link href="/" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
               Home

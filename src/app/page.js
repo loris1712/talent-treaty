@@ -4,6 +4,7 @@ import Hero1 from './components/Hero1';
 import Hero2 from './components/Hero2';
 import TestimonialsSlider from './components/TestimonialsSlider';
 import Clients from './components/Clients';
+import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 
 const Home = () => {
@@ -12,8 +13,7 @@ const Home = () => {
       <Navbar />
       <Hero1 />
       <Hero2 />
-      <Clients />
-      <TestimonialsSlider />
+      <Pricing />
       <Footer />
     </div>
   );

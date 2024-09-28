@@ -6,7 +6,7 @@ import React from 'react';
 const StartPage = () => {
 
   const boxes = [
-    { title: 'Publishing Contract', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar.', link: '/agreement' },
+    { title: 'Produce Agreement', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar.', link: '/agreement' },
     { title: 'Mechanical License', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
     { title: 'Royalty Split', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
     { title: 'Publishing Contract', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },

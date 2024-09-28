@@ -9,12 +9,11 @@ const StartPage = () => {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen bg-[#F4F7FA] py-10 px-4">
-        <div className="container mx-auto" style={{marginTop: '5rem'}}>
+      <div className="bg-[#F4F7FA] py-10 px-4">
+        <div className="container mx-auto mb-16" style={{marginTop: '5rem'}}>
           <AgreementForm />
         </div>
       </div>
-      <Footer />
     </div>
     
   );

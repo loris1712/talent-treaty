@@ -257,7 +257,7 @@ const AgreementForm = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 overflow-y-scroll h-[70vh] bg-white radius-[12px] p-4 agreementForm">
+    <div className="container mx-auto p-4 overflow-y-scroll h-[50vh] bg-white radius-[12px] p-4 agreementForm" style={{borderRadius: '12px'}}>
       <p className='text-[#1C0E0D]'>
         Does the artist have a company? If you have an artist company, corporation, or LLC, then select 'yes'. If not, select 'no'
       </p>

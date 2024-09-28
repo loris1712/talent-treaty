@@ -5,7 +5,7 @@ const Hero2 = () => {
   return (
     <div>
       {/* Hero Section 2 */}
-      <section className="flex flex-col md:flex-row bg-[#F4F7FA] mt-16 md:mt-0 items-center" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
+      <section className="flex flex-col-reverse md:flex-col md:flex-row bg-[#F4F7FA] md:mt-0 items-center" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
         {/* Left Side - Image */}
         <div className="md:w-1/2 flex justify-center md:justify-start">
           <img 
@@ -17,7 +17,8 @@ const Hero2 = () => {
 
         {/* Right Side - Text and Button */}
         <div className="flex flex-col justify-center p-8 md:w-1/2">
-          <h1 className="text-4xl font-extrabold mb-4 text-[#332C5C]">
+          <p className="text-[12px] text-[#473BF0] uppercase tracking-wide font-bold mb-4">Easily create agreements</p>
+          <h1 className="text-4xl font-extrabold mb-4 text-[#473BF0]">
             Say goodbye to
             <span className="block">legal bills</span>
           </h1>            
