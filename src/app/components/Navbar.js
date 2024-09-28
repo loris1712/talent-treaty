@@ -50,27 +50,27 @@ const Navbar = () => {
             <Link href="/" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
               Home
             </Link>
-            <Link href="/about" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
+            <Link href="#" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
               About
             </Link>
-            <Link href="/services" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
+            <Link href="#" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
               Services
             </Link>
-            <Link href="/blog" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
+            <Link href="#" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
               Blog
             </Link>
-            <Link href="/contact" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
+            <Link href="#" className="block py-2 md:py-0 text-[#332C5C] hover:text-[#473BF0] text-[14px]">
               Contact Us
             </Link>
           </div>
           
           <div className="flex flex-col md:flex-row md:space-x-4 mt-4 md:mt-0">
-            <Link href="/login">
+            <Link href="#">
               <button className="hover:bg-transparent text-[#473BF0] py-2 px-4 hover:bg-[#f0f0f0] transition duration-300 ease-in-out text-[14px]">
                 Login
               </button>
             </Link>
-            <Link href="/signup">
+            <Link href="#">
               <button className="bg-[#473BF0] text-white py-2 px-4 rounded-[12px] text-[14px]">
                 Sign Up
               </button>
