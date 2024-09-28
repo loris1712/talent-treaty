@@ -253,7 +253,7 @@ const AgreementForm = () => {
   };
 
   return (
-    <div className="container mx-auto p-4 overflow-y-scroll h-[50vh] bg-white radius-[12px] p-4 agreementForm" style={{borderRadius: '12px'}}>
+    <div className="container mx-auto p-4 overflow-y-scroll h-[60vh] bg-white radius-[12px] p-4 agreementForm" style={{borderRadius: '12px'}}>
       <p className='text-[#1C0E0D]'>
         Does the artist have a company? If you have an artist company, corporation, or LLC, then select 'yes'. If not, select 'no'
       </p>
@@ -311,58 +311,164 @@ const AgreementForm = () => {
       <div className="flex items-center">
         <p className='text-[#1C0E0D]'>What is the producer's legal name? </p>
         <span className="cursor-pointer text-gray-600" 
-                data-tooltip-id="q2" data-tooltip-content="Enter the producer's full legal name as shown on their government ID.
-
-">
+                data-tooltip-id="q2" data-tooltip-content="Enter the producer's full legal name as shown on their government ID.">
             ⓘ
           </span>
           <Tooltip id="q2" />
       </div>
       <input type="text" name="producerLegalName" placeholder="Enter producer legal name" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the producer's professional name? In other words, what does the world know you as, which can be different from your legal name</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the producer's professional name? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the name the producer is known by in the industry. This can be different from their legal name.
+
+">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="producerProfessionalName" placeholder="Enter professional producer name" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the artist's legal name? This is your government name</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the artist's legal name? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the artist's full legal name as shown on their government ID.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="artistLegalName" placeholder="Enter artist legal name" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the artist's professional name? In other words, what does the world know you as, which can be different from your legal name</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the artist's professional name? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the name the artist is known by in the industry. This can be different from their legal name.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="artistProfessionalName" placeholder="Enter artist professional name" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the artist's address? Where should we send you payment / notice information</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the artist's address? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Provide the address where payments or official notices should be sent to the artist.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="artistAddress" placeholder="Enter artist address" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the artist's contact name?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the artist's contact name? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the name of the person responsible for handling communication for the artist.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="artistContactName" placeholder="Enter artist contact name" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the artist's contact email?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the artist's contact email? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Provide the email address where the artist can be contacted for this agreement.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="email" name="artistContactEmail" placeholder="Enter artist contact email" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the producer's address? Where should we send you payment / notice information</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the producer's address? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Provide the address where payments or official notices should be sent to the producer.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="producerAddress" placeholder="Enter producer address" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the producer's contact name?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the producer's contact name? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the name of the person responsible for handling communication for the producer. (ex. Manager)">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="producerContactName" placeholder="Enter producer contact name" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the producer's contact email?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the producer's contact email? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Provide the email address where the producer can be contacted for this agreement.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="email" name="producerContactEmail" placeholder="Enter producer contact email" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>How many masters are being produced?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>How many masters are being produced? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the number of master recordings that will be created under this agreement.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="number" name="numberOfMasters" placeholder="Enter number of masters" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the advance amount? (Include currency symbol, e.g., $1000)</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the advance amount? (Include currency symbol, e.g., $1000) </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the upfront payment made to the producer or artist. Include the currency symbol (e.g., $1000).">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="advance" placeholder="Enter advance amount" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the royalty percentage? (e.g., 5%)</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the royalty percentage? (e.g., 5%) </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the percentage of royalties the producer or artist will receive (e.g., 5%).">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="royaltyPercent" placeholder="Enter royalty percentage" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the title of the composition?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the title of the composition? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the title of the song or musical composition covered by this agreement.">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="compositionTitle" placeholder="Enter composition title" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the publishing share percent? (e.g., 50%)</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the publishing share percent? (e.g., 50%) </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the percentage of publishing rights the artist or producer will receive (e.g., 50%).">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="publishingSharePercent" placeholder="Enter publishing share percent" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the governing law?</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the governing law? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the legal jurisdiction (e.g., country, state) that will govern this contract.
+(Give an example if you live in the US but are from canada etc.) ">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <select name="governingLaw" onChange={handleInputChange}>
         {['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'].map((state) => (
           <option key={state} value={state}>{state}</option>
