@@ -5,7 +5,7 @@ const Hero2 = () => {
   return (
     <div>
       {/* Hero Section 2 */}
-      <section className="flex flex-col-reverse md:flex-col md:flex-row bg-[#F4F7FA] md:mt-0 items-center" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
+      <section className="flex flex-col-reverse md:flex-row bg-[#F4F7FA] md:mt-0 items-center" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
         {/* Left Side - Image */}
         <div className="md:w-1/2 flex justify-center md:justify-start">
           <img 

@@ -27,29 +27,27 @@ const Pricing = () => {
           {/* Lista features */}
           <ul className="text-left space-y-2 mb-6">
             <li className="flex items-center text-[#473BF0]">
-              <svg className="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 16 16">
-                <path d="M10.97 4.97a.75.75 0 0 1 1.07 0l3.25 3.25a.75.75 0 0 1-1.07 1.06L11 6.81 7.28 10.53a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l0 0z"/>
-              </svg> 
+              <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
               Unlimited Contracts
             </li>
             <li className="flex items-center text-[#473BF0]">
-              <svg className="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 16 16">
-                <path d="M10.97 4.97a.75.75 0 0 1 1.07 0l3.25 3.25a.75.75 0 0 1-1.07 1.06L11 6.81 7.28 10.53a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l0 0z"/>
-              </svg>
+              <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
               Trusted by Industry Professionals
             </li>
             <li className="flex items-center text-[#473BF0]">
-              <svg className="w-5 h-5 text-green-500 mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 16 16">
-                <path d="M10.97 4.97a.75.75 0 0 1 1.07 0l3.25 3.25a.75.75 0 0 1-1.07 1.06L11 6.81 7.28 10.53a.75.75 0 0 1-1.06-1.06l3.25-3.25a.75.75 0 0 1 1.06 0l0 0z"/>
-              </svg>
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
               Created by Entertainment Attorny
             </li>
           </ul>
 
           {/* Bottone Get Started */}
-          <button className="bg-[#473BF0] text-white w-full py-2 rounded-lg hover:bg-opacity-80 transition duration-300 ease-in-out">
-            Get Started
-          </button>
+          <a href="/start">
+            <button className="bg-[#473BF0] text-white w-full py-2 rounded-lg hover:bg-opacity-80 transition duration-300 ease-in-out">
+              Get Started
+            </button>
+          </a>
         </div>
 
         {/* Piano 2 - Sfocato */}

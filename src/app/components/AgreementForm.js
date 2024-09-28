@@ -299,7 +299,7 @@ const AgreementForm = () => {
       )}
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the effective date?</p>
+        <p className='text-[#1C0E0D]'>What is the effective date? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q1" data-tooltip-content="This is the start date of the contract. It is usually today or within the next few days.">
             ⓘ
@@ -309,7 +309,7 @@ const AgreementForm = () => {
       <input type="date" name="effectiveDate" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the producer's legal name? </p>
+        <p className='text-[#1C0E0D]'>What is the producer's legal name? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the producer's full legal name as shown on their government ID.">
             ⓘ
@@ -319,7 +319,7 @@ const AgreementForm = () => {
       <input type="text" name="producerLegalName" placeholder="Enter producer legal name" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the producer's professional name? </p>
+        <p className='text-[#1C0E0D]'>What is the producer's professional name? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the name the producer is known by in the industry. This can be different from their legal name.
 
@@ -331,7 +331,7 @@ const AgreementForm = () => {
       <input type="text" name="producerProfessionalName" placeholder="Enter professional producer name" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the artist's legal name? </p>
+        <p className='text-[#1C0E0D]'>What is the artist's legal name? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the artist's full legal name as shown on their government ID.">
             ⓘ
@@ -341,7 +341,7 @@ const AgreementForm = () => {
       <input type="text" name="artistLegalName" placeholder="Enter artist legal name" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the artist's professional name? </p>
+        <p className='text-[#1C0E0D]'>What is the artist's professional name? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the name the artist is known by in the industry. This can be different from their legal name.">
             ⓘ
@@ -351,7 +351,7 @@ const AgreementForm = () => {
       <input type="text" name="artistProfessionalName" placeholder="Enter artist professional name" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the artist's address? </p>
+        <p className='text-[#1C0E0D]'>What is the artist's address? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Provide the address where payments or official notices should be sent to the artist.">
             ⓘ
@@ -361,7 +361,7 @@ const AgreementForm = () => {
       <input type="text" name="artistAddress" placeholder="Enter artist address" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the artist's contact name? </p>
+        <p className='text-[#1C0E0D]'>What is the artist's contact name? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the name of the person responsible for handling communication for the artist.">
             ⓘ
@@ -371,7 +371,7 @@ const AgreementForm = () => {
       <input type="text" name="artistContactName" placeholder="Enter artist contact name" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the artist's contact email? </p>
+        <p className='text-[#1C0E0D]'>What is the artist's contact email? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Provide the email address where the artist can be contacted for this agreement.">
             ⓘ
@@ -381,7 +381,7 @@ const AgreementForm = () => {
       <input type="email" name="artistContactEmail" placeholder="Enter artist contact email" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the producer's address? </p>
+        <p className='text-[#1C0E0D]'>What is the producer's address? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Provide the address where payments or official notices should be sent to the producer.">
             ⓘ
@@ -391,7 +391,7 @@ const AgreementForm = () => {
       <input type="text" name="producerAddress" placeholder="Enter producer address" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the producer's contact name? </p>
+        <p className='text-[#1C0E0D]'>What is the producer's contact name? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the name of the person responsible for handling communication for the producer. (ex. Manager)">
             ⓘ
@@ -401,7 +401,7 @@ const AgreementForm = () => {
       <input type="text" name="producerContactName" placeholder="Enter producer contact name" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the producer's contact email? </p>
+        <p className='text-[#1C0E0D]'>What is the producer's contact email? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Provide the email address where the producer can be contacted for this agreement.">
             ⓘ
@@ -411,7 +411,7 @@ const AgreementForm = () => {
       <input type="email" name="producerContactEmail" placeholder="Enter producer contact email" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>How many masters are being produced? </p>
+        <p className='text-[#1C0E0D]'>How many masters are being produced? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the number of master recordings that will be created under this agreement.">
             ⓘ
@@ -421,7 +421,7 @@ const AgreementForm = () => {
       <input type="number" name="numberOfMasters" placeholder="Enter number of masters" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the advance amount? (Include currency symbol, e.g., $1000) </p>
+        <p className='text-[#1C0E0D]'>What is the advance amount? (Include currency symbol, e.g., $1000) &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the upfront payment made to the producer or artist. Include the currency symbol (e.g., $1000).">
             ⓘ
@@ -431,7 +431,7 @@ const AgreementForm = () => {
       <input type="text" name="advance" placeholder="Enter advance amount" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the royalty percentage? (e.g., 5%) </p>
+        <p className='text-[#1C0E0D]'>What is the royalty percentage? (e.g., 5%) &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the percentage of royalties the producer or artist will receive (e.g., 5%).">
             ⓘ
@@ -441,7 +441,7 @@ const AgreementForm = () => {
       <input type="text" name="royaltyPercent" placeholder="Enter royalty percentage" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the title of the composition? </p>
+        <p className='text-[#1C0E0D]'>What is the title of the composition? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the title of the song or musical composition covered by this agreement.">
             ⓘ
@@ -451,7 +451,7 @@ const AgreementForm = () => {
       <input type="text" name="compositionTitle" placeholder="Enter composition title" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the publishing share percent? (e.g., 50%) </p>
+        <p className='text-[#1C0E0D]'>What is the publishing share percent? (e.g., 50%) &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the percentage of publishing rights the artist or producer will receive (e.g., 50%).">
             ⓘ
@@ -461,7 +461,7 @@ const AgreementForm = () => {
       <input type="text" name="publishingSharePercent" placeholder="Enter publishing share percent" onChange={handleInputChange} />
 
       <div className="flex items-center">
-        <p className='text-[#1C0E0D]'>What is the governing law? </p>
+        <p className='text-[#1C0E0D]'>What is the governing law? &nbsp;</p>
         <span className="cursor-pointer text-gray-600" 
                 data-tooltip-id="q2" data-tooltip-content="Enter the legal jurisdiction (e.g., country, state) that will govern this contract.
 (Give an example if you live in the US but are from canada etc.) ">
