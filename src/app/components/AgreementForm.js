@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import { jsPDF } from 'jspdf';
+import { Tooltip } from 'react-tooltip'
+import 'react-tooltip/dist/react-tooltip.css'
 
 const AgreementForm = () => {
   const [artistCompany, setArtistCompany] = useState('no');
@@ -21,37 +23,31 @@ const AgreementForm = () => {
   const generatePDF = () => {
     const doc = new jsPDF();
     
-    // Imposta la dimensione del font e il colore del testo
-    doc.setFontSize(10); // Dimensione del font
-    doc.setTextColor(0, 0, 0); // Colore del testo (nero)
+    doc.setFontSize(10);
+    doc.setTextColor(0, 0, 0);
   
-    // Aggiungi titolo
     doc.text("Generated Agreement", 10, 10);
-    let verticalOffset = 20; // Offset verticale iniziale
+    let verticalOffset = 20;
   
-    // Rimuovi i tag HTML e gestisci il testo a capo
     const lines = agreementText
-      .replace(/<h2.*?>/g, '') // Rimuove il tag h2
-      .replace(/<\/h2>/g, '') // Rimuove la chiusura del tag h2
-      .replace(/<.*?>/g, '') // Rimuove tutti i tag HTML
-      .split('\n'); // Divide il testo in righe
+      .replace(/<h2.*?>/g, '')
+      .replace(/<\/h2>/g, '')
+      .replace(/<.*?>/g, '')
+      .split('\n');
   
     lines.forEach(line => {
-      // Controlla se l'aggiunta della riga supera il limite della pagina
-      if (verticalOffset > doc.internal.pageSize.height - 10) { // 10 per il margine
-        doc.addPage(); // Aggiungi una nuova pagina
-        verticalOffset = 10; // Resetta l'offset verticale
+      if (verticalOffset > doc.internal.pageSize.height - 10) {
+        doc.addPage();
+        verticalOffset = 10; 
       }
   
-      // Aggiungi il testo
-      const splitText = doc.splitTextToSize(line, 190); // Dividi il testo in base alla larghezza della pagina
+      const splitText = doc.splitTextToSize(line, 190); 
       splitText.forEach(textLine => {
-        doc.text(textLine, 10, verticalOffset); // Aggiungi il testo
-        verticalOffset += 10; // Sposta verso il basso per la prossima linea
+        doc.text(textLine, 10, verticalOffset);
+        verticalOffset += 10; 
       });
     });
   
-    // Salva il PDF
     doc.save('agreement.pdf');
   };   
 
@@ -302,10 +298,26 @@ const AgreementForm = () => {
         </div>
       )}
 
-      <p className='text-[#1C0E0D]'>What is the effective date? This means the day of the contract, which would likely be today or sometime this week</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the effective date?</p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q1" data-tooltip-content="This is the start date of the contract. It is usually today or within the next few days.">
+            ⓘ
+          </span>
+          <Tooltip id="q1" />
+      </div>
       <input type="date" name="effectiveDate" onChange={handleInputChange} />
 
-      <p className='text-[#1C0E0D]'>What is the producer's legal name? This is your government name</p>
+      <div className="flex items-center">
+        <p className='text-[#1C0E0D]'>What is the producer's legal name? </p>
+        <span className="cursor-pointer text-gray-600" 
+                data-tooltip-id="q2" data-tooltip-content="Enter the producer's full legal name as shown on their government ID.
+
+">
+            ⓘ
+          </span>
+          <Tooltip id="q2" />
+      </div>
       <input type="text" name="producerLegalName" placeholder="Enter producer legal name" onChange={handleInputChange} />
 
       <p className='text-[#1C0E0D]'>What is the producer's professional name? In other words, what does the world know you as, which can be different from your legal name</p>
