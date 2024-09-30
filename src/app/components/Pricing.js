@@ -14,12 +14,13 @@ const Pricing = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
       {/* Piano 1 - Visibile */}
         <div className="bg-white rounded-lg p-8 shadow-lg md:w-1/3">
-          <h2 className="text-2xl font-bold text-left text-[#473BF0] mb-4">Founders Club          </h2>
+          <h2 className="text-2xl font-bold text-left text-[#473BF0] mb-4">Basic Package 
+</h2>
           <div className="text-left mb-4 flex">
-            <span className="text-4xl font-extrabold text-[#473BF0]">$0.00</span>
+            <span className="text-4xl font-extrabold text-[#473BF0]">$59.99</span>
             <div className="text-[12px] text-[#473BF0] ml-2">
-              <p>USD / mo</p>
-              <p>Billed yearly ($0)</p>
+              <p>USD/mo</p>
+              <p>Billed yearly ($719.88)</p>
             </div>
           </div>
           <p className="text-left text-[#332C5C] font-semibold mb-4 text-[#473BF0]">Free</p>
@@ -38,9 +39,40 @@ const Pricing = () => {
             <li className="flex items-center text-[#473BF0]">
             <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
 
-              Created by Entertainment Attorny
+              Tailored for Artists, Producers, and Managers
+            </li>
+            <li className="flex items-center text-[#473BF0]">
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
+              Instant Customization Options
+            </li>
+            <li className="flex items-center text-[#473BF0]">
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
+            Access to Educational Resources & Best Practices
+            </li>
+            <li className="flex items-center text-[#473BF0]">
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
+            Regular Updates with Industry-Standard Clauses
+            </li>
+            <li className="flex items-center text-[#473BF0]">
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
+            AI-Powered Agreement Suggestions
+            </li>
+            <li className="flex items-center text-[#473BF0]">
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
+            Secure, Cloud-Based Document Storage
+            </li>
+            <li className="flex items-center text-[#473BF0]">
+            <svg width="16px" height="16px" className="mr-2" xmlns="http://www.w3.org/2000/svg" fill="#473BF0" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+
+            24/7 Customer Support
             </li>
           </ul>
+
 
           {/* Bottone Get Started */}
           <a href="/start">

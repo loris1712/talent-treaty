@@ -31,7 +31,7 @@ const Hero = () => {
               <span className="block">Music Contracts</span>
               <span className='text-[#473BF0]'>Instantly</span>
             </h1>            
-            <p className="text-[14px] mb-6 text-[#1C0E0D] leading-6">Created by lawyers to help you save money on contracts. We specialize in the music industry offering cost effective contracts.</p>
+            <p className="text-[14px] mb-6 text-[#1C0E0D] leading-6">Developed by experienced music executives to offer cost-effective, industry-specific contracts that save you time and money. Tailored for the unique needs of the music business. Save time, protect your interests, and focus on creating—backed by years of hands-on experience in the music business.</p>
             <a href="/start">
               <button className="flex items-center bg-[#473BF0] text-white px-4 py-4 rounded-[8px] transition duration-300 ease-in-out hover:bg-opacity-80">
                 <span className="text-[14px]">Get started for free</span>

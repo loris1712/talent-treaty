@@ -23,7 +23,7 @@ const Hero2 = () => {
             <span className="block">legal bills</span>
           </h1>            
           <p className="text-[14px] mb-6 text-[#1C0E0D] leading-6">
-          With lots of unique blocks, you can easily build a page without coding. Build your next landing page so quickly with Albino.          </p>
+            TalentTreaty leverages AI and industry best practices to automate professional agreements, helping you save on costly legal fees. Our mission is to offer a more sustainable, artist-focused solution, empowering you with tailored contracts that protect your interests while keeping more money in your pocket.          </p>
           <a href="/start">
             <button className="flex items-center bg-[#473BF0] text-white px-4 py-4 w-[fit-content] rounded-[8px] transition duration-300 ease-in-out hover:bg-opacity-80">
               <span className="text-[14px]">Get started for free</span>

@@ -6,19 +6,19 @@ import React from 'react';
 const StartPage = () => {
 
   const boxes = [
-    { title: 'Produce Agreement', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar.', link: '/agreement' },
-    { title: 'Mechanical License', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
-    { title: 'Royalty Split', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
-    { title: 'Publishing Contract', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
-    { title: 'Mechanical License', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
-    { title: 'Royalty Split', description: 'Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. Bod bigt Kent Jonasson. Mövis paravis al. Bionarade astronar. ' },
+    { title: 'Producer Agreement', description: 'Set the stage for success with a comprehensive agreement that outlines the producer\’s creative contributions, payment terms, royalties, and credit. Whether you\'re making a hit or a masterpiece, this agreement ensures the right terms are in place to protect your work and get you paid.', link: '/agreement' },
+    { title: 'Artist Management Agreement', description: 'Every great artist needs a savvy manager. This agreement locks in the details of your partnership, including commissions, roles, and expectations, so both parties can focus on building the artist\'s career without misunderstandings. It\’s the ultimate backstage pass to a thriving artist-manager relationship.' },
+    { title: 'Work-for-Hire Session Musician Agreement', description: 'Session players are the unsung heroes of countless hits. This agreement makes sure they’re paid properly, credited fairly, and clear on their role in the session. Whether you\'re laying down a riff or keeping time, this contract ensures everyone plays in harmony—on and off the track.' },
+    { title: 'Songwriter Agreement', description: 'For when the muse strikes and magic happens—this agreement covers ownership, royalties, and rights, protecting the heart of every great song. Whether you\'re collaborating or working solo, this keeps the creative wheels turning while ensuring you get your fair share.' },
+    { title: 'Songwriter Split sheet Agreement', description: 'Creativity is a group effort, but the business side doesn\'t have to be complicated. This agreement ensures that every co-writer\’s contribution is recognized and fairly rewarded, so you can focus on writing the next big hit without worrying about who gets what.' },
+    { title: 'Remix Agreement', description: 'Turn a great track into something entirely new while keeping the business side smooth. This agreement covers the remixing terms, including payment, rights, and credit, ensuring both the original artist and remixer are protected while the beats stay fresh and legal.' },
   ];
 
   return (
     <div>
       <Navbar />
       <div className="min-h-screen bg-[#F4F7FA] py-10 px-4">
-        <div className="container mx-auto" style={{marginTop: '10rem'}}>
+        <div className="container mx-auto" style={{marginTop: '8rem'}}>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {boxes.map((box, index) => (
@@ -31,7 +31,7 @@ const StartPage = () => {
                 <h2 className={`text-2xl font-bold mb-4 ${
                   index === 0 ? 'text-[#161C2D]' : 'text-gray-400'
                 }`}>{box.title}</h2>
-                <p className={`mb-4 text-[12px] ${
+                <p className={`mb-4 text-[14px] ${
                   index === 0 ? 'text-[#161C2D]' : 'text-gray-400'
                 }`}>{box.description}</p>
                 <a href={box.link}>
